@@ -1,0 +1,20 @@
+1. Make sure that the "main.tf" and "variables.tf" both files must come under the "Instance" folder 
+
+2. The other two files("mynetwork.tf" and "provider.tf") comes under the "tfinfra" folder.
+
+3. After that run the following commands:-
+
+terraform fmt
+
+terraform init
+
+terraform plan
+
+terraform apply
+
+
+***********************************************************************
+
+Subscribe for more videos - https://www.youtube.com/@atulgupta-g/videos
+
+***********************************************************************

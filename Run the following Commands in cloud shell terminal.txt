@@ -1,0 +1,42 @@
+**************Run the following Commands in only cloud shell terminal.**************
+
+
+1. terraform --version
+
+2. mkdir tfinfra
+
+3. cd tfinfra
+
+4. touch provider.tf > nano provider.tf > put provider.tf code into that file.
+
+To save the file press "Ctrl + x", y and then hit ENTER.
+
+5. terraform init
+
+6. touch mynetwork.tf > nano mynetwork.tf > put mynetwork.tf code into that file.
+
+To save the file press "Ctrl + x", y and then hit ENTER.
+
+7. mkdir instance
+
+8. cd instance
+
+9. touch main.tf > nano main.tf > put main.tf code into this file.
+
+10. touch variables.tf > nano variables.tf > put variables.tf code into this file.
+
+11. cd -
+
+Before you run the below commands, make sure that when you in the terminal you see only one root directory folder. 
+# For example - "student_02_b1461fe4e552@cloudshell:~/tfinfra" like this 
+ 
+12. terraform fmt
+
+13. terraform init
+
+14. terraform plan
+
+15. terraform apply
+
+
+And you're done here.
